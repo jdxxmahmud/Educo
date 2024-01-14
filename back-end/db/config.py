@@ -2,9 +2,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-USER = "Educo"
+USER = "educo"
 PASSWORD = "educo"
-DATABASE = "Educo"
+DATABASE = "educo"
 PORT = "5432"
 
 DATABASE_URL = f"postgresql://{USER}:{PASSWORD}@localhost:{PORT}/{DATABASE}"
